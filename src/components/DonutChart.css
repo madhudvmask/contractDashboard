@@ -1,0 +1,87 @@
+
+.zDashboard {
+    min-width: 1140px;
+    margin: 0 auto;
+}
+.donut-center-text {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  .spend-progress-chart{
+    position: relative;
+  }
+  
+  .contract-details-wrapper {
+    margin-top: 20px;
+    width: 50%;
+    padding-left: 50px;
+  }
+  .contract-metric span{
+        display: block;
+  }
+
+  .contract-summary-wrapper{
+    display: flex;
+    width: 100%;
+  }
+  .contract-details-wrapper,
+  .spend-progress-chart{
+width: 50%;
+  }
+
+  .contract-details-wrapper .contract-metrics-row{
+    display: flex;
+  }
+  .contract-details-wrapper .contract-metrics-row .contract-metric{
+    width: 33.33%;
+    text-align: left;
+  }
+
+  .contract-details-wrapper .contract-metrics-row .contract-metric .label{
+    
+    line-height: normal;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+  }
+
+  
+  .contract-details-wrapper .contract-metrics-row .contract-metric .value{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  .contract-details-wrapper .contract-info-row{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+  }
+      
+
+  .contract-details-wrapper .contract-info-row .contract-metric{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contract-details-wrapper .contract-info-row .contract-metric .label{
+    line-height: normal;
+  }
+
+  .contract-details-wrapper .contract-info-row .contract-metric .value{
+    font-weight: bold;
+    line-height: normal;
+  }
+.contract-table h2,
+  .contract-progress h2{
+text-align: left;
+font-size: 20px;
+margin-bottom: 80px;
+margin-top: 40px;
+  }
